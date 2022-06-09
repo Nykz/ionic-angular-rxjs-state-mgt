@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Tab 3
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item *ngFor="let item of lists | async">
+      <ion-label>
+       {{item?.name}}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+ </ion-content>

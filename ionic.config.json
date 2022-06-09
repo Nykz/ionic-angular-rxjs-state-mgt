@@ -1,0 +1,7 @@
+{
+  "name": "rxjs-state-mgt-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
